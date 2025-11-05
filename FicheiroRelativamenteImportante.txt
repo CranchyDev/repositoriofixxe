@@ -1,0 +1,16 @@
+int RRJPM = 5;
+bool grupo;
+
+bool VerifiqueFuncao()
+{
+ if (RRJPM == 5)
+ {
+  grupo = true;
+  return grupo;
+ }
+ else
+ {
+  grupo = false;
+  return grupo;
+ }
+}
